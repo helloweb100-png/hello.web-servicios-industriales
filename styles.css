@@ -797,7 +797,7 @@ html:not(.js) .xp__copy { opacity: 1; translate: 0 0; }
 .cap--cta { grid-column: span 2; background: var(--navy); border-color: var(--navy); justify-content: center; align-items: flex-start; }
 .cap--cta::after { background: rgba(255, 255, 255, .07); }
 .cap--cta p { font: 800 1.15rem/1.15 var(--f-display); font-stretch: 112%; text-transform: uppercase; color: #fff; }
-@media (min-width: 768px) { .caps { grid-template-columns: repeat(3, 1fr); gap: 1rem; } .cap { min-height: 180px; padding: 1.4rem; } .cap--cta { grid-column: span 1; } .cap span { font-size: .95rem; } }
+@media (min-width: 768px) { .caps { grid-template-columns: repeat(3, 1fr); gap: 1rem; } .cap { min-height: 180px; padding: 1.4rem; } .cap--cta { grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; justify-content: space-between; } .cap span { font-size: .95rem; } }
 @media (min-width: 1100px) { .caps { grid-template-columns: repeat(4, 1fr); } }
 
 /* 18 ─── MÉTODO ─────────────────────────────────────────────────────────── */
